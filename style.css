@@ -51,7 +51,7 @@ h1, p {
   display: block;
   margin: 0 auto;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   padding: 12px;
 }
 
@@ -101,7 +101,7 @@ label {
 }
 
 .controls button {
-  padding: 12px 40px;
+  padding: 16px 60px;
   background: var(--color1);
   color: white;
   border-radius: 8px;
@@ -109,6 +109,8 @@ label {
   outline: none;
   cursor: pointer;
   transition: 0.5s;
+  font-style: bold;
+  font-size: 20px;
 }
 .controls button:hover{
   background: var(--color2);
